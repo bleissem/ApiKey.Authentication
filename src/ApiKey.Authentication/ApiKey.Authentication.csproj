@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Authors>Mihir Dilip</Authors>
-    <Company>Mihir Dilip</Company>
+    <Authors>Mihir Dilip, Alexander Bleissem</Authors>
+    <Company></Company>
     <Description>API Key Authentication Implementation for ASP.NET Core. It can be setup so that it can accept API Key in Header, QueryParams or HeaderOrQueryParams.</Description>
-    <RepositoryUrl>https://github.com/mihirdilip/aspnetcore-authentication-apiKey</RepositoryUrl>
+    <RepositoryUrl>https://github.com/bleissem/ApiKey.Authentication</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/mihirdilip/aspnetcore-authentication-apiKey</PackageProjectUrl>
-    <Version>2.2.0</Version>
-    <Copyright>Copyright (c) 2019 Mihir Dilip</Copyright>
+    <PackageProjectUrl>https://github.com/bleissem/ApiKey.Authentication</PackageProjectUrl>
+    <Version>0.0.1</Version>
+    <Copyright>Copyright (c) 2020 Mihir Dilip, Alexander BLeissem</Copyright>
     <PackageLicenseUrl></PackageLicenseUrl>
 	<RepositoryType>GitHub</RepositoryType>
     <PackageIconUrl />
@@ -18,8 +18,8 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <AssemblyVersion>2.2.0.0</AssemblyVersion>
-    <FileVersion>2.2.0.0</FileVersion>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
