@@ -14,7 +14,7 @@ namespace ApiKey.Authentication
                 return false;
             }
 
-            return (apiKey.Key.FirstOrDefault(ak => String.Equals(ak, key, apiKey.StringComparison)) !=  null);
+            return String.Equals(apiKey.Key, key, apiKey.StringComparison);
            
         }
     }

@@ -15,7 +15,7 @@ namespace ApiKey.Authentication
 		/// <summary>
 		/// API Key
 		/// </summary>
-		IEnumerable<string> Key { get; }
+		string Key { get; }
 
 		StringComparison StringComparison { get; }
 
