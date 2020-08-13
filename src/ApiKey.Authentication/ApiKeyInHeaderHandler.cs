@@ -32,7 +32,7 @@ namespace ApiKey.Authentication
 			}
 
 			var key = value.FirstOrDefault();
-			return await HandleAuthenticateAsync(key).ConfigureAwait(false);
+			return await HandleAuthenticateAsync(key);
 		}
 	}
 }

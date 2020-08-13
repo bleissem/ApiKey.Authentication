@@ -40,7 +40,7 @@ namespace ApiKey.Authentication
 			}
 
 			// Validate key by using the implementation of IApiKeyValidationService.
-			var validatedKey = await _apiKeyValidationService.ProvideAsync().ConfigureAwait(false);
+			var validatedKey = await _apiKeyValidationService.ProvideAsync();
 			if (validatedKey == null)
 			{
 				return AuthenticateResult.Fail("Invalid API Key provided.");
