@@ -4,7 +4,7 @@
 using System;
 using Microsoft.Extensions.Options;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
 	/// <summary>
 	/// This post configure options checks whether the required option properties are set or not on <see cref="ApiKeyOptions"/>.

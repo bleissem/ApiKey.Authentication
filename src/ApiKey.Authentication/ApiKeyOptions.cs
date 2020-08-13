@@ -3,7 +3,7 @@
 
 using Microsoft.AspNetCore.Authentication;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
 	/// <summary>
 	/// Inherited from <see cref="AuthenticationSchemeOptions"/> to allow extra option properties for 'ApiKey' authentication.

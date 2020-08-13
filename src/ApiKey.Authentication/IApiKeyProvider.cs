@@ -3,7 +3,7 @@
 
 using System.Threading.Tasks;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
 	/// <summary>
 	/// Implementation of this interface will be used by the 'ApiKey' authentication handler to validated and get details from the key.

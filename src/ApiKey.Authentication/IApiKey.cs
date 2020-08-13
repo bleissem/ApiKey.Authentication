@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
 	/// <summary>
 	/// API Key Details

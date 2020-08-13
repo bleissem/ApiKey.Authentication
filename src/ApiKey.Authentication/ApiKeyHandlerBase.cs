@@ -11,7 +11,7 @@ using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
 	/// <summary>
 	/// Inherited from <see cref="AuthenticationHandler{TOptions}"/> for api key authentication.

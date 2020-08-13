@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
 	internal class ApiKeyInHeaderOrQueryParamsHandler : ApiKeyHandlerBase
 	{

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AspNetCore.Authentication.ApiKey
+namespace ApiKey.Authentication
 {
     public class ApiKeyValidator: IApiKeyValidator
     {
